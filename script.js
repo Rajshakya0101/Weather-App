@@ -66,63 +66,63 @@ search.addEventListener("click", () => {
               if(isDaytime()==true){
                 switch (json.weather[0].main) {
                   case "Clear":
-                    image.src = "images/clear.jpeg";
+                    image.src = "/images/clear.jpeg";
                     background.style.backgroundImage = "url(images/clearday.jpeg)";
                     break;
                   case "Clouds":
-                    image.src = "images/cloud.jpeg";
+                    image.src = "/images/cloud.jpeg";
                     background.style.backgroundImage = "url(images/cloudyday.jpg)";
                     break;
                   case "Mist":
-                    image.src = "images/mist.jpeg";
+                    image.src = "/images/mist.jpeg";
                     background.style.backgroundImage = "url(images/mistyday.jpeg)";
                     break;
                   case "Rain":
-                    image.src = "images/rain.jpeg";
+                    image.src = "/images/rain.jpeg";
                     background.style.backgroundImage = "url(images/rainyday.jpeg)";
                     break;
                   case "Snow":
-                    image.src = "images/snow.jpeg";
+                    image.src = "/images/snow.jpeg";
                     background.style.backgroundImage = "url(images/snowday.jpeg)";
                     break;
                   case "Fog":
-                    image.src = "images/snow.jpeg";
+                    image.src = "/images/snow.jpeg";
                     background.style.backgroundImage = "url(images/fogyday.jpeg)";
                     break;
                   default:
-                    image.src = "images/cloud.jpeg";
+                    image.src = "/images/cloud.jpeg";
                     background.style.backgroundImage = "url(images/mistyday.jpeg)";
                 }
               }
               else{
                 switch (json.weather[0].main) {
                   case "Clear":
-                    image.src = "images/moon-png.jpeg";
+                    image.src = "/images/moon-png.jpeg";
                     background.style.backgroundImage = "url(images/clearnight.jpeg)";
                     break;
                   case "Clouds":
-                    image.src = "images/cloudymoon.jpeg";
+                    image.src = "/images/cloudymoon.jpeg";
                     background.style.backgroundImage = "url(images/cloudynight.jpeg)";
                     break;
                   case "Mist":
-                    image.src = "images/mistymoon.jpeg";
+                    image.src = "/images/mistymoon.jpeg";
                     image.style = "filter: drop-shadow(0 0 0.75rem black);"
                     background.style.backgroundImage = "url(images/mistynight.jpeg)";
                     break;
                   case "Rain":
-                    image.src = "images/rainymoon.jpeg";
+                    image.src = "/images/rainymoon.jpeg";
                     background.style.backgroundImage = "url(images/rainynight1.jpeg)";
                     break;
                   case "Snow":
-                    image.src = "images/snowmoon.jpeg";
+                    image.src = "/images/snowmoon.jpeg";
                     background.style.backgroundImage = "url(images/snownight.jpeg)";
                     break;
                   case "Fog":
-                    image.src = "images/foggymoon.jpeg";
+                    image.src = "/images/foggymoon.jpeg";
                     background.style.backgroundImage = "url(images/foggynight.jpeg)";
                     break;
                   default:
-                    image.src = "images/moon-png.jpeg";
+                    image.src = "/images/moon-png.jpeg";
                     background.style.backgroundImage = "url(images/clearnight.jpeg)";
                 }
               }
