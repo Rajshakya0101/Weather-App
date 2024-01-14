@@ -66,27 +66,27 @@ search.addEventListener("click", () => {
               if(isDaytime()==true){
                 switch (json.weather[0].main) {
                   case "Clear":
-                    image.src = "/images/clear.png";
+                    image.src = "images/clear.png";
                     background.style.backgroundImage = "url(images/clearday.jpeg)";
                     break;
                   case "Clouds":
-                    image.src = "/images/cloud.png";
+                    image.src = "images/cloud.png";
                     background.style.backgroundImage = "url(images/cloudyday.jpg)";
                     break;
                   case "Mist":
-                    image.src = "/images/mist.png";
+                    image.src = "images/mist.png";
                     background.style.backgroundImage = "url(images/mistyday.jpeg)";
                     break;
                   case "Rain":
-                    image.src = "/images/rain.png";
+                    image.src = "images/rain.png";
                     background.style.backgroundImage = "url(images/rainyday.jpeg)";
                     break;
                   case "Snow":
-                    image.src = "/images/snow.png";
+                    image.src = "images/snow.png";
                     background.style.backgroundImage = "url(images/snowday.jpeg)";
                     break;
                   case "Fog":
-                    image.src = "/images/snow.png";
+                    image.src = "images/snow.png";
                     background.style.backgroundImage = "url(images/fogyday.png)";
                     break;
                   default:
@@ -97,32 +97,32 @@ search.addEventListener("click", () => {
               else{
                 switch (json.weather[0].main) {
                   case "Clear":
-                    image.src = "/images/moon-png.png";
+                    image.src = "images/moon-png.png";
                     background.style.backgroundImage = "url(images/clearnight.jpeg)";
                     break;
                   case "Clouds":
-                    image.src = "/images/cloudymoon.png";
+                    image.src = "images/cloudymoon.png";
                     background.style.backgroundImage = "url(images/cloudynight.jpeg)";
                     break;
                   case "Mist":
-                    image.src = "/images/mistymoon.png";
+                    image.src = "images/mistymoon.png";
                     image.style = "filter: drop-shadow(0 0 0.75rem black);"
                     background.style.backgroundImage = "url(images/mistynight.jpeg)";
                     break;
                   case "Rain":
-                    image.src = "/images/rainymoon.png";
+                    image.src = "images/rainymoon.png";
                     background.style.backgroundImage = "url(images/rainynight1.jpeg)";
                     break;
                   case "Snow":
-                    image.src = "/images/snowmoon.jpeg";
+                    image.src = "images/snowmoon.jpeg";
                     background.style.backgroundImage = "url(images/snownight.jpeg)";
                     break;
                   case "Fog":
-                    image.src = "/images/foggymoon.png";
+                    image.src = "images/foggymoon.png";
                     background.style.backgroundImage = "url(images/foggynight.jpeg)";
                     break;
                   default:
-                    image.src = "/images/moon-png.png";
+                    image.src = "images/moon-png.png";
                     background.style.backgroundImage = "url(images/clearnight.jpeg)";
                 }
               }
