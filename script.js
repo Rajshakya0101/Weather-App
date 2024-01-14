@@ -33,11 +33,11 @@ search.addEventListener("click", () => {
           .then((response) => {
             console.log(response.status);
             if (response.ok==404) {
-              // container.style.height = '400px';
-              // weatherBox.classList.remove('active');
-              // weatherDetails.classList.remove('active');
-              // error404.classList.add('active');
-              // throw new Error(`HTTP error! Status: ${response.status}`);
+              container.style.height = '400px';
+              weatherBox.classList.remove('active');
+              weatherDetails.classList.remove('active');
+              error404.classList.add('active');
+              throw new Error(`HTTP error! Status: ${response.status}`);
             }
             return response.json();
           })
